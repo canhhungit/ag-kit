@@ -1,7 +1,7 @@
 {
   "$schema": "schemas/manifest-lock.schema.json",
   "components": {
-    "ARCHITECTURE.md": "4c7102638272566b51f43feb784eb9238f4d7e4ee108ea008196c93addeebcd3",
+    "ARCHITECTURE.md": "86f3994d60ec2a8219597a8ddc144fc1299f05b4d9feeffc0cbb5ee36a79d32d",
     "CHANGELOG.md": "c29cb325d278be44ad662d91c86c180cf01c05d008f77cf4b3f0bd42de8c46f8",
     "README.md": "d6a29fbc3367f5ab5739f84bad71710879119d1b697b6a18943dcdad5e2ec654",
     "VERSION": "94bc11e2a5617c66e6d2f849e14be6579c44c90d0f985d80ce4dc96dff46fa94",
@@ -197,6 +197,7 @@
     "skills/server-management/SKILL.md": "4f2e4243a8e1e45482479dd033f654f59c56ada89ebf87ec561f86f79f54662d",
     "skills/simplify-code/SKILL.md": "1e2ab8d06593f6f95381f6b7a7d18e0fa998bb0147fd823c56f4158023d0164b",
     "skills/skillify/SKILL.md": "e95a98f0baba2687c9cf73dbacc89c1abccc572f1ce1f095b7834bc7da99158a",
+    "skills/sonar-code-quality/SKILL.md": "1bb42a2a34c4a0e02adccda6c0fec27ddc802e2d425d321b83a57e33038f5b69",
     "skills/systematic-debugging/SKILL.md": "b41274eb9a63576dedf3df94b7cae59d6e1c62bff522a9114565f5768631f8de",
     "skills/tailwind-patterns/SKILL.md": "01b89bc9fd4750ec293934d343b0f49bc369157bf71a45fd109a0f631ed8e076",
     "skills/tdd-workflow/SKILL.md": "c758378bc135150af5cc5fc990c1612a19541631c064d69388397ef9e514323a",
@@ -226,6 +227,6 @@
     "workflows/verify.md": "2dc26bcbe24c7e71571953da75629521ea3d7a0a444a7101e3601b39864971fc"
   },
   "kitVersion": "2026.8.31",
-  "manifestSha256": "8a940adf3fd9ca09bb0ed0b7a864f9a61a71333bcc75262bfc40b31c0aed592a",
+  "manifestSha256": "7b60e0d18e5bde31932b63c474620acfffa3e316826901df4e3b573ee976cbf5",
   "schemaVersion": "1.0.0"
 }

@@ -1044,6 +1044,19 @@
       "scripts": [],
       "version": "1.0.0"
     },
+    "sonar-code-quality": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/sonar-code-quality/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "systematic-debugging": {
       "allowedTools": [
         "Read",
