@@ -575,6 +575,18 @@
       "scripts": [],
       "version": "1.0.0"
     },
+    "architecture-decision-records": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep"
+      ],
+      "path": "skills/architecture-decision-records/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "authentication-expert": {
       "allowedTools": [
         "Read",
@@ -787,6 +799,18 @@
       "scripts": [],
       "version": "1.0.0"
     },
+    "error-handling-patterns": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep"
+      ],
+      "path": "skills/error-handling-patterns/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "frontend-architecture": {
       "allowedTools": [
         "Read",
@@ -850,6 +874,32 @@
         "Bash"
       ],
       "path": "skills/git-workflow/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "github-actions-templates": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/github-actions-templates/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "go-concurrency-patterns": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/go-concurrency-patterns/SKILL.md",
       "scripts": [],
       "version": "1.0.0"
     },
@@ -1161,6 +1211,19 @@
       "scripts": [],
       "version": "1.0.0"
     },
+    "sql-optimization-patterns": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/sql-optimization-patterns/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "systematic-debugging": {
       "allowedTools": [
         "Read",
@@ -1209,6 +1272,18 @@
       "scripts": [
         "skills/testing-patterns/scripts/test_runner.py"
       ],
+      "version": "1.0.0"
+    },
+    "typescript-advanced-types": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep"
+      ],
+      "path": "skills/typescript-advanced-types/SKILL.md",
+      "scripts": [],
       "version": "1.0.0"
     },
     "verify-changes": {
