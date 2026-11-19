@@ -1,7 +1,7 @@
 {
   "$schema": "schemas/manifest-lock.schema.json",
   "components": {
-    "ARCHITECTURE.md": "d76626492126b02b5562ec8a88bc9fcc5401932c252ede64415c98a1805fa392",
+    "ARCHITECTURE.md": "db505e2d947ed18b05bb5e984647bc39bf10483521cc473027a821243a910418",
     "CHANGELOG.md": "c29cb325d278be44ad662d91c86c180cf01c05d008f77cf4b3f0bd42de8c46f8",
     "README.md": "d6a29fbc3367f5ab5739f84bad71710879119d1b697b6a18943dcdad5e2ec654",
     "VERSION": "94bc11e2a5617c66e6d2f849e14be6579c44c90d0f985d80ce4dc96dff46fa94",
@@ -144,6 +144,7 @@
     "skills/game-development/web-games/SKILL.md": "1431bf2f5a70b9e0b4a794edd0861bc6534074433d6f6025455e8b27384b65c3",
     "skills/geo-fundamentals/SKILL.md": "d4ca6f9c889408bf5e35ae3f39377dbf60502bc754053623b6ea7f42190e4125",
     "skills/geo-fundamentals/scripts/geo_checker.py": "8731bf8ac07209f68fe2f5d2d61df7bb7dfb6cf6a7bb98d061424c0bfed8f78b",
+    "skills/go-gin-pro/SKILL.md": "a027e20bef5e955d05594035dcde97a38961dcfd21b4550af398ef686745daab",
     "skills/i18n-localization/SKILL.md": "356847a4d612633c2531b0c49367cc82ac6d88546b97a3fe4aea05dc515a017f",
     "skills/i18n-localization/scripts/i18n_checker.py": "f01da31b02cfdc45d899efb351867f36be6812f4466406b7cf5a3f3f14c4e1b2",
     "skills/intelligent-routing/SKILL.md": "d0ad66b14912955ed6c74f25db17c440b839d9ea1be058f0f698fc111d27f0ea",
@@ -166,6 +167,7 @@
     "skills/mobile-design/platform-ios.md": "3843ee18984f68ab5fa022976f2015429788baff5f8af0dd56d6298792e09396",
     "skills/mobile-design/scripts/mobile_audit.py": "7d9f7b6813c8decb159462259ce09a6bc91ecfc602971c20ca3919981ac9efe6",
     "skills/mobile-design/touch-psychology.md": "ec131aea1ce39b8d46d1c491ee4839510979d2f60ee7698e2ad1aed2c48b6146",
+    "skills/nestjs-fastify/SKILL.md": "8780489ba66d88d792c399cf9c293c769b173674870a659f2cdbf8728cfef4a7",
     "skills/nextjs-react-expert/1-async-eliminating-waterfalls.md": "81a31df0f4c530c971e5f811d581dd065dfdfb145b27c0540cb9be71ad3dac13",
     "skills/nextjs-react-expert/2-bundle-bundle-size-optimization.md": "224e63d70ace2ae020c736da499258e51153a612401b47a0d0d545283c941be0",
     "skills/nextjs-react-expert/3-server-server-side-performance.md": "f318046936e3d1c94987685c8ab48b936b28b7996e07c317f91a292a8cecfc04",
@@ -186,6 +188,7 @@
     "skills/plan-writing/SKILL.md": "2698f0dcae134d9ef587d4a2e00bc6901a251b24691f393faf581917bf80b248",
     "skills/powershell-windows/SKILL.md": "a2e47e73f225ca24627e2d7109a9805acfeb4b59e8ac4c683ef8994dea8e432f",
     "skills/python-patterns/SKILL.md": "bab8eb299ef8f97bfdf8dc9d68a19ab1f84b9a1e86a852a84b7fa943d97cc2f6",
+    "skills/realtime-fanout/SKILL.md": "3fcd86113af199315355db2cf4b9299fd68d058c4efc38d806d2b443fbc4790a",
     "skills/red-team-tactics/SKILL.md": "fc3e8f0fe1f6d569b4d6633def69a1d117708774038f487783fed6e4e41a30b7",
     "skills/rust-pro/SKILL.md": "924138d4a20304953c55b02c1bd2467752b8076da5945952b8e9275bbfdd036f",
     "skills/seo-fundamentals/SKILL.md": "4ab2efde333caa34a75efe7a8bf76b49d7e39abd0ecc6ceef6a1c8042141f2af",
@@ -199,6 +202,7 @@
     "skills/testing-patterns/SKILL.md": "72f7e12eff41c4bad55b37fbcd734be23420e4e4473cf7a90876487477aecfc7",
     "skills/testing-patterns/scripts/test_runner.py": "e09b21e2334913fbb6b2e840faa229874283fd76c79b3dd0f81c504f41585c8d",
     "skills/verify-changes/SKILL.md": "a4ab56f9b3e8f4dce5295fd8497a97a7e82e16036eaf93fff2a25f1e0ef9b495",
+    "skills/vscode-extension/SKILL.md": "c344288d45376686f939ae778d941625bcd4f69ab0e9a2e99141dcde12c46e13",
     "skills/vulnerability-scanner/SKILL.md": "8c0d6ad513e2e03d43aea5286253478b794e1432d8b577159cc11226a29189a0",
     "skills/vulnerability-scanner/checklists.md": "dab26753399f2c2e9eb576bfcd75d53747c652eca500727b6d11020bcda5cbd7",
     "skills/vulnerability-scanner/scripts/dependency_analyzer.py": "29c004c9551ef0006ca8741342e1528e5ce407f9fa4c8804db6ee174f1d527d2",
@@ -221,6 +225,6 @@
     "workflows/verify.md": "2dc26bcbe24c7e71571953da75629521ea3d7a0a444a7101e3601b39864971fc"
   },
   "kitVersion": "2026.8.31",
-  "manifestSha256": "2f662eae86d5fe5842cb3daf8558395f50c541d43c692710e067386224531035",
+  "manifestSha256": "b0062b32aa9ecd2ae837e39d4c5cc80cc9f8ab441481adcfffef1ec34da91c52",
   "schemaVersion": "1.0.0"
 }

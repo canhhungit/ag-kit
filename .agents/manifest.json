@@ -763,6 +763,19 @@
       ],
       "version": "1.0.0"
     },
+    "go-gin-pro": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/go-gin-pro/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "i18n-localization": {
       "allowedTools": [
         "Read",
@@ -833,6 +846,19 @@
       "scripts": [
         "skills/mobile-design/scripts/mobile_audit.py"
       ],
+      "version": "1.0.0"
+    },
+    "nestjs-fastify": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/nestjs-fastify/SKILL.md",
+      "scripts": [],
       "version": "1.0.0"
     },
     "nextjs-react-expert": {
@@ -919,6 +945,19 @@
         "Grep"
       ],
       "path": "skills/python-patterns/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "realtime-fanout": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/realtime-fanout/SKILL.md",
       "scripts": [],
       "version": "1.0.0"
     },
@@ -1051,6 +1090,19 @@
         "Glob"
       ],
       "path": "skills/verify-changes/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "vscode-extension": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/vscode-extension/SKILL.md",
       "scripts": [],
       "version": "1.0.0"
     },
