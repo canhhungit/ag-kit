@@ -1,7 +1,7 @@
 {
   "$schema": "schemas/manifest-lock.schema.json",
   "components": {
-    "ARCHITECTURE.md": "db505e2d947ed18b05bb5e984647bc39bf10483521cc473027a821243a910418",
+    "ARCHITECTURE.md": "4c7102638272566b51f43feb784eb9238f4d7e4ee108ea008196c93addeebcd3",
     "CHANGELOG.md": "c29cb325d278be44ad662d91c86c180cf01c05d008f77cf4b3f0bd42de8c46f8",
     "README.md": "d6a29fbc3367f5ab5739f84bad71710879119d1b697b6a18943dcdad5e2ec654",
     "VERSION": "94bc11e2a5617c66e6d2f849e14be6579c44c90d0f985d80ce4dc96dff46fa94",
@@ -112,6 +112,7 @@
     "skills/code-review-graph/SKILL.md": "9e59161bbd8b251f4bc2076299192f8e0d7d89c9e54a12e3c33057e7e8dcf63d",
     "skills/context-compression/SKILL.md": "1165b2a4192249ce6597fbbeb61853f6e699f5de5f37addb75fa87326d5197b9",
     "skills/coordinator-mode/SKILL.md": "a3c074d5e87655cf34703f19fa7a8eefaeb4498e8017df4c73554d717d3ffc14",
+    "skills/customer-experience/SKILL.md": "12301b2d3ed1c87c71502733353ebb18e0b965f7d159d0c01c266910691122b5",
     "skills/database-design/SKILL.md": "f1561bf94e3605673d4d5985012c8df94c5658b6f3852824847aa546c9c2c050",
     "skills/database-design/database-selection.md": "c68b0f3383da54379946951783f8c5586add6a8ca76c707b2b9885352d57efee",
     "skills/database-design/indexing.md": "eec8ce01e7c1c8ec2aed7a96d260a52b12d90c2996288e32814a8d9cf29cc22a",
@@ -225,6 +226,6 @@
     "workflows/verify.md": "2dc26bcbe24c7e71571953da75629521ea3d7a0a444a7101e3601b39864971fc"
   },
   "kitVersion": "2026.8.31",
-  "manifestSha256": "b0062b32aa9ecd2ae837e39d4c5cc80cc9f8ab441481adcfffef1ec34da91c52",
+  "manifestSha256": "8a940adf3fd9ca09bb0ed0b7a864f9a61a71333bcc75262bfc40b31c0aed592a",
   "schemaVersion": "1.0.0"
 }

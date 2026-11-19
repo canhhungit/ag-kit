@@ -663,6 +663,18 @@
       "scripts": [],
       "version": "1.0.0"
     },
+    "customer-experience": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep"
+      ],
+      "path": "skills/customer-experience/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "database-design": {
       "allowedTools": [
         "Read",
