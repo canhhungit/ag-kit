@@ -11,7 +11,7 @@ AG Kit is a modular Antigravity workspace system consisting of:
 - **20 Specialist Agents** — role-based AI personas and orchestration roles;
 - **97 Skills** — domain knowledge modules with progressive conditional loading;
 - **13 Workflows** — slash-command procedures;
-- **6 Rules** — workspace routing, coding, design, safety, and quick-reference constraints;
+- **7 Rules** — workspace routing, coding, security, design, and quick-reference constraints;
 - **Antigravity runtime layer** — contract, native hook, MCP helper, plugin builder, Doctor, schemas, and tests.
 
 ---
@@ -54,7 +54,7 @@ Any managed change without registry regeneration fails validation and CI. Google
 ├── agent/                    # 20 specialist role definitions
 ├── skills/                   # 97 progressive skills
 ├── workflows/                # 13 slash-command procedures
-├── rules/                    # 6 workspace constraints
+├── rules/                    # 7 workspace constraints
 ├── memory/                   # Persistent project context
 ├── hooks/                    # Antigravity Doctor, policy, MCP, plugin, schemas, tests
 ├── schemas/                  # Managed component and memory schemas

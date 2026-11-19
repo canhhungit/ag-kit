@@ -90,3 +90,13 @@ description: Apply when writing, building, refactoring, or fixing code — proje
 > 🔴 **Agents & Skills can invoke ANY script** via `python .agents/skills/<skill>/scripts/<script>.py`
 
 ---
+
+## 🧩 Modularity & Sonar Quality Guardrails
+
+Apply `@[skills/sonar-code-quality]` principles on every code change:
+
+- **Small Focused Files**: Keep files `<= 250–300` lines; split `types/schemas`, `constants`, `pure helpers`, `repository`, and `controller/UI` by responsibility.
+- **Shallow Functions**: Keep functions `<= 30–40` lines with low cognitive complexity (`<= 15`, max 3 nesting levels); use early returns and guard clauses.
+- **Reuse & Inheritance**: Never duplicate logic blocks across modules — extract shared helpers, generic utilities, composable hooks, or base classes.
+
+---

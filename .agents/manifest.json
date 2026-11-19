@@ -462,6 +462,12 @@
       "trigger": "always_on",
       "version": "1.0.0"
     },
+    "security-rules": {
+      "path": "rules/security-rules.md",
+      "priority": "P0",
+      "trigger": "model_decision",
+      "version": "1.0.0"
+    },
     "universal-rules": {
       "path": "rules/universal-rules.md",
       "priority": "P0",

@@ -1,7 +1,7 @@
 {
   "$schema": "schemas/manifest-lock.schema.json",
   "components": {
-    "ARCHITECTURE.md": "02110974bc31e00fa9cf2a2859c7e4e01476952004c63f35bd24b7872f58e619",
+    "ARCHITECTURE.md": "b1f5fd415af8da51cf6cb0883fe03ac14a346c770694bac41f84d79a1172092f",
     "CHANGELOG.md": "c29cb325d278be44ad662d91c86c180cf01c05d008f77cf4b3f0bd42de8c46f8",
     "README.md": "d6a29fbc3367f5ab5739f84bad71710879119d1b697b6a18943dcdad5e2ec654",
     "VERSION": "94bc11e2a5617c66e6d2f849e14be6579c44c90d0f985d80ce4dc96dff46fa94",
@@ -43,11 +43,12 @@
     "memory/project-conventions.md": "a121234b78e7d0c33908796e71eabde58c12e6becc36a4d3175f1b5b3a03c803",
     "memory/tech-decisions.md": "001f735f5fbc665c2bfedf3f637336cf3a25b4af7dcccd11739c8aff232e872c",
     "memory/user-preferences.md": "251ac5dea279b0bb18a5107ef599ef718837f5f60317c7728c370e83d74d5d37",
-    "rules/code-rules.md": "3e602c516f195ddeb6fb986aa8cead49a0ebae8a48720f738d4642146dd510a5",
+    "rules/code-rules.md": "011dbad437cca8ac4d3d41948c4e55e47fcb0199c5917454b247382f8de2ed47",
     "rules/core-protocol.md": "647becf363128a82e65ed9628f9ab82b0142692825b7f94f0e264ad6d1cacba2",
     "rules/design-rules.md": "73ee8f120e85939d04a7153bd7d2336cfb7d3025c9c6fc4b9003eca97e3f228b",
     "rules/quick-reference.md": "f077e962ea7ad1a5afc51efca8f3d27c68b895398e0f0f153c118a9cb635593c",
     "rules/request-routing.md": "2e5e04fc7b500e77c41d3875e4cf3769c83243d78dc419e441b2944aceecbb4d",
+    "rules/security-rules.md": "83e6cb69172c02182e834add505bf5af9bfa48e82baaa9a48e9a8a740ddf2ae2",
     "rules/universal-rules.md": "8f03f437aa32909f473573c75754b671cb47344de82a18c4f8926db6a41c2388",
     "schemas/component-frontmatter.schema.json": "8fed5bf3e4b374589b48a95086d864d186424202ef011d39a698e475089fef7e",
     "schemas/manifest-lock.schema.json": "0f55921773dca0e66aa814ecb78e1414a28a907d401bc3b948755323a4213dc0",
@@ -299,6 +300,6 @@
     "workflows/verify.md": "2dc26bcbe24c7e71571953da75629521ea3d7a0a444a7101e3601b39864971fc"
   },
   "kitVersion": "2026.8.31",
-  "manifestSha256": "ceade51ff0592217bb8c318d1696292f293ef0dc2ae904dbd72be1572987bf7a",
+  "manifestSha256": "2da1f8fea6e69f081364e0817957857eb0f87ac7026c96bcb34fecac3c6b7243",
   "schemaVersion": "1.0.0"
 }
