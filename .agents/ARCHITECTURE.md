@@ -9,7 +9,7 @@
 AG Kit is a modular Antigravity workspace system consisting of:
 
 - **20 Specialist Agents** — role-based AI personas and orchestration roles;
-- **53 Skills** — domain knowledge modules with progressive conditional loading;
+- **61 Skills** — domain knowledge modules with progressive conditional loading;
 - **13 Workflows** — slash-command procedures;
 - **6 Rules** — workspace routing, coding, design, safety, and quick-reference constraints;
 - **Antigravity runtime layer** — contract, native hook, MCP helper, plugin builder, Doctor, schemas, and tests.
@@ -52,7 +52,7 @@ Any managed change without registry regeneration fails validation and CI. Google
 ├── manifest.lock.json        # Generated integrity lock
 ├── DEPENDENCY_GRAPH.md       # Generated workflow → agent → skill graph
 ├── agent/                    # 20 specialist role definitions
-├── skills/                   # 53 progressive skills
+├── skills/                   # 61 progressive skills
 ├── workflows/                # 13 slash-command procedures
 ├── rules/                    # 6 workspace constraints
 ├── memory/                   # Persistent project context
@@ -122,7 +122,7 @@ Specialist AI personas for different domains.
 
 ---
 
-## 🧩 Skills (53)
+## 🧩 Skills (61)
 
 Modular knowledge domains that agents can load on-demand based on task context. Each skill has a `when_to_use` frontmatter field for conditional/intelligent loading.
 
@@ -149,12 +149,16 @@ Modular knowledge domains that agents can load on-demand based on task context. 
 | `nestjs-fastify`        | NestJS 11, Fastify, Mongoose, Pino |
 | `realtime-fanout`       | WS gateway, Redis Pub/Sub, backpressure |
 | `vscode-extension`      | VS Code Webview, CSP, vsce     |
+| `caching-and-queue-patterns` | Redis cache-aside, queues, DLQ |
+| `payment-and-webhook-safety` | Idempotency, HMAC, atomic ledgers |
+| `ai-integration-patterns` | LLM schemas, injection defense, streaming |
 
 ### Database
 
 | Skill             | Description                 |
 | ----------------- | --------------------------- |
 | `database-design` | Schema design, optimization |
+| `data-migration-zero-downtime` | Expand-contract, online index |
 
 ### Cloud & Infrastructure
 
@@ -162,6 +166,9 @@ Modular knowledge domains that agents can load on-demand based on task context. 
 | ----------------------- | ------------------------- |
 | `deployment-procedures` | CI/CD, deploy workflows   |
 | `server-management`     | Infrastructure management |
+| `observability-engineer` | Logs, tracing, metrics, probes |
+| `git-workflow`          | Conventional commits, PR hygiene |
+| `dependency-manager`    | Lockfiles, CVE audit, overrides |
 
 ### Testing & Quality
 
@@ -180,6 +187,7 @@ Modular knowledge domains that agents can load on-demand based on task context. 
 | ----------------------- | ------------------------ |
 | `vulnerability-scanner` | Security auditing, OWASP |
 | `red-team-tactics`      | Offensive security       |
+| `authentication-expert` | JWT/session, OAuth2, RBAC, CSRF |
 
 ### Architecture & Planning
 
@@ -373,7 +381,7 @@ For command details and prerequisites, see [scripts/README.md](scripts/README.md
 | Metric              | Value                             |
 | ------------------- | --------------------------------- |
 | **Total Agents**    | 20 (1 major upgrade in 2026.5.13) |
-| **Total Skills**    | 53                                |
+| **Total Skills**    | 61                                |
 | **Total Workflows** | 13 (+2 new in 2026.5.13)          |
 | **Toolkit Utilities** | 7 user-facing + 2 internal modules |
 | **Antigravity Utilities** | 4 runtime utilities              |

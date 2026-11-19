@@ -524,6 +524,19 @@
   },
   "schemaVersion": "1.0.0",
   "skills": {
+    "ai-integration-patterns": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/ai-integration-patterns/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "api-patterns": {
       "allowedTools": [
         "Read",
@@ -559,6 +572,19 @@
         "Grep"
       ],
       "path": "skills/architecture/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "authentication-expert": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/authentication-expert/SKILL.md",
       "scripts": [],
       "version": "1.0.0"
     },
@@ -605,6 +631,19 @@
         "Grep"
       ],
       "path": "skills/brainstorming/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "caching-and-queue-patterns": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/caching-and-queue-patterns/SKILL.md",
       "scripts": [],
       "version": "1.0.0"
     },
@@ -675,6 +714,19 @@
       "scripts": [],
       "version": "1.0.0"
     },
+    "data-migration-zero-downtime": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/data-migration-zero-downtime/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "database-design": {
       "allowedTools": [
         "Read",
@@ -687,6 +739,19 @@
       "scripts": [
         "skills/database-design/scripts/schema_validator.py"
       ],
+      "version": "1.0.0"
+    },
+    "dependency-manager": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/dependency-manager/SKILL.md",
+      "scripts": [],
       "version": "1.0.0"
     },
     "deployment-procedures": {
@@ -773,6 +838,19 @@
       "scripts": [
         "skills/geo-fundamentals/scripts/geo_checker.py"
       ],
+      "version": "1.0.0"
+    },
+    "git-workflow": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/git-workflow/SKILL.md",
+      "scripts": [],
       "version": "1.0.0"
     },
     "go-gin-pro": {
@@ -901,6 +979,19 @@
       "scripts": [],
       "version": "1.0.0"
     },
+    "observability-engineer": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/observability-engineer/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "parallel-agents": {
       "allowedTools": [
         "Read",
@@ -908,6 +999,19 @@
         "Grep"
       ],
       "path": "skills/parallel-agents/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "payment-and-webhook-safety": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/payment-and-webhook-safety/SKILL.md",
       "scripts": [],
       "version": "1.0.0"
     },
