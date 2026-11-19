@@ -22,9 +22,16 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const pkg = await fse.readJson(path.join(__dirname, "..", "package.json"));
 
-const REPO = "github:vudovn/ag-kit";
+const DEFAULT_REPO = "github:canhhungit/ag-kit";
 const AGENT_FOLDER = ".agents";
 const TEMP_FOLDER = ".temp_ag_kit";
+
+export const resolveRepoSource = ({ repo, branch } = {}) => {
+    const rawRepo = (repo || process.env.AG_KIT_REPO || DEFAULT_REPO).trim();
+    if (!branch) return rawRepo;
+    const baseRepo = rawRepo.split("#")[0];
+    return `${baseRepo}#${branch}`;
+};
 
 const showBanner = (quiet = false) => {
     if (quiet) return;
@@ -94,9 +101,9 @@ const readIncomingVersion = async (tempDir) => {
     }
 };
 
-const downloadToolkit = async ({ tempDir, branch, spinner }) => {
+const downloadToolkit = async ({ tempDir, repo, branch, spinner }) => {
     await cleanup(tempDir);
-    const repoSource = branch ? `${REPO}#${branch}` : REPO;
+    const repoSource = resolveRepoSource({ repo, branch });
     if (spinner) spinner.text = `Downloading ${repoSource}...`;
     await downloadTemplate(repoSource, { dir: tempDir, force: true });
 
@@ -174,6 +181,7 @@ export const installOrUpdate = async (options = {}, mode = "init") => {
     try {
         const incomingDir = await downloadToolkit({
             tempDir,
+            repo: options.repo,
             branch: options.branch,
             spinner,
         });
@@ -377,6 +385,7 @@ export const buildProgram = () => {
         .description("Install .agents into a project; safely merges when it already exists")
         .option("-f, --force", "Skip confirmation prompt", false)
         .option("-p, --path <dir>", "Path to the project directory", process.cwd())
+        .option("-r, --repo <source>", "Select repository source (e.g. github:owner/repo)")
         .option("-b, --branch <name>", "Select repository branch")
         .option("-q, --quiet", "Suppress non-error output", false)
         .option("--dry-run", "Download and calculate changes without applying them", false)
@@ -390,6 +399,7 @@ export const buildProgram = () => {
         .description("Safely update .agents while preserving local changes")
         .option("-f, --force", "Skip confirmation prompt", false)
         .option("-p, --path <dir>", "Path to the project directory", process.cwd())
+        .option("-r, --repo <source>", "Select repository source (e.g. github:owner/repo)")
         .option("-b, --branch <name>", "Select repository branch")
         .option("-q, --quiet", "Suppress non-error output", false)
         .option("--dry-run", "Download and calculate changes without applying them", false)

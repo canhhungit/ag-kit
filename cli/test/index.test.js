@@ -1,15 +1,38 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { buildProgram } from "../bin/index.js";
+import { buildProgram, resolveRepoSource } from "../bin/index.js";
 
 test("CLI exposes safe lifecycle commands", () => {
     const program = buildProgram();
     const commands = new Map(program.commands.map((command) => [command.name(), command]));
 
     assert.deepEqual([...commands.keys()], ["init", "update", "rollback", "status"]);
+    assert.ok(commands.get("init").options.some((option) => option.long === "--repo"));
+    assert.ok(commands.get("update").options.some((option) => option.long === "--repo"));
     assert.ok(commands.get("update").options.some((option) => option.long === "--strategy"));
     assert.ok(commands.get("update").options.some((option) => option.long === "--dry-run"));
     assert.ok(commands.get("rollback").options.some((option) => option.long === "--backup"));
+});
+
+test("resolveRepoSource supports default, --repo, AG_KIT_REPO, and --branch", () => {
+    const previous = process.env.AG_KIT_REPO;
+    delete process.env.AG_KIT_REPO;
+
+    try {
+        assert.equal(resolveRepoSource(), "github:canhhungit/ag-kit");
+        assert.equal(resolveRepoSource({ branch: "dev" }), "github:canhhungit/ag-kit#dev");
+
+        process.env.AG_KIT_REPO = "github:custom/ag-kit";
+        assert.equal(resolveRepoSource(), "github:custom/ag-kit");
+        assert.equal(resolveRepoSource({ branch: "main" }), "github:custom/ag-kit#main");
+        assert.equal(
+            resolveRepoSource({ repo: "github:override/ag-kit#old", branch: "dev" }),
+            "github:override/ag-kit#dev",
+        );
+    } finally {
+        if (previous === undefined) delete process.env.AG_KIT_REPO;
+        else process.env.AG_KIT_REPO = previous;
+    }
 });
 
 test("CLI runs when invoked through an npm bin symlink", async (t) => {
