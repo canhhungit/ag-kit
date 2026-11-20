@@ -1671,6 +1671,26 @@
       "scripts": [],
       "version": "1.0.0"
     },
+    "ui-ux-pro-max": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/ui-ux-pro-max/SKILL.md",
+      "scripts": [
+        "skills/ui-ux-pro-max/scripts/core.py",
+        "skills/ui-ux-pro-max/scripts/design_system.py",
+        "skills/ui-ux-pro-max/scripts/preview.py",
+        "skills/ui-ux-pro-max/scripts/reasoning_contract.py",
+        "skills/ui-ux-pro-max/scripts/search.py",
+        "skills/ui-ux-pro-max/scripts/validate_data.py"
+      ],
+      "version": "1.0.0"
+    },
     "verify-changes": {
       "allowedTools": [
         "Read",
