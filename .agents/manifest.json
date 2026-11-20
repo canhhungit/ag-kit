@@ -530,6 +530,14 @@
   },
   "schemaVersion": "1.0.0",
   "skills": {
+    "agent-browser": {
+      "allowedTools": [
+        "Bash(agent-browser:*)"
+      ],
+      "path": "skills/agent-browser/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "ai-integration-patterns": {
       "allowedTools": [
         "Read",
@@ -642,6 +650,32 @@
       "scripts": [],
       "version": "1.0.0"
     },
+    "azure-cost-optimization": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/azure-cost-optimization/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "baseline-ui": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/baseline-ui/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "bash-linux": {
       "allowedTools": [
         "Read",
@@ -730,6 +764,19 @@
       "path": "skills/clean-code/SKILL.md",
       "scripts": [],
       "version": "2.0.0"
+    },
+    "cloudflare": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/cloudflare/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
     },
     "code-review-checklist": {
       "allowedTools": [
@@ -907,6 +954,19 @@
       "scripts": [],
       "version": "1.0.0"
     },
+    "durable-objects": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/durable-objects/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "error-handling-patterns": {
       "allowedTools": [
         "Read",
@@ -953,6 +1013,19 @@
         "Bash"
       ],
       "path": "skills/find-skills/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "fixing-motion-performance": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/fixing-motion-performance/SKILL.md",
       "scripts": [],
       "version": "1.0.0"
     },
@@ -1138,6 +1211,19 @@
       ],
       "version": "1.0.0"
     },
+    "improve-ui": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/improve-ui/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "incident-responder": {
       "allowedTools": [
         "Read",
@@ -1286,6 +1372,19 @@
         "Bash"
       ],
       "path": "skills/nextjs-app-router-patterns/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "nextjs-on-cloudflare": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/nextjs-on-cloudflare/SKILL.md",
       "scripts": [],
       "version": "1.0.0"
     },
@@ -1512,6 +1611,58 @@
       "scripts": [],
       "version": "1.0.0"
     },
+    "redis-core": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/redis-core/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "redis-search": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/redis-search/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "redis-semantic-cache": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/redis-semantic-cache/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "remotion-best-practices": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/remotion-best-practices/SKILL.md",
+      "scripts": [],
+      "version": "4.0.545"
+    },
     "rust-pro": {
       "allowedTools": [
         "Read",
@@ -1632,6 +1783,19 @@
       "scripts": [],
       "version": "1.0.0"
     },
+    "sleek-design-mobile-apps": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/sleek-design-mobile-apps/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "sonar-code-quality": {
       "allowedTools": [
         "Read",
@@ -1678,6 +1842,19 @@
         "Bash"
       ],
       "path": "skills/sql-pro/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "supabase-postgres-best-practices": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/supabase-postgres-best-practices/SKILL.md",
       "scripts": [],
       "version": "1.0.0"
     },
@@ -1810,6 +1987,32 @@
         "skills/ui-ux-pro-max/scripts/search.py",
         "skills/ui-ux-pro-max/scripts/validate_data.py"
       ],
+      "version": "1.0.0"
+    },
+    "vercel-composition-patterns": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/vercel-composition-patterns/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "vercel-react-native-skills": {
+      "allowedTools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/vercel-react-native-skills/SKILL.md",
+      "scripts": [],
       "version": "1.0.0"
     },
     "verify-changes": {

@@ -9,7 +9,7 @@
 AG Kit is a modular Antigravity workspace system consisting of:
 
 - **20 Specialist Agents** — role-based AI personas and orchestration roles;
-- **110 Skills** — domain knowledge modules with progressive conditional loading;
+- **126 Skills** — domain knowledge modules with progressive conditional loading;
 - **13 Workflows** — slash-command procedures;
 - **7 Rules** — workspace routing, coding, security, design, and quick-reference constraints;
 - **Antigravity runtime layer** — contract, native hook, MCP helper, plugin builder, Doctor, schemas, and tests.
@@ -52,7 +52,7 @@ Any managed change without registry regeneration fails validation and CI. Google
 ├── manifest.lock.json        # Generated integrity lock
 ├── DEPENDENCY_GRAPH.md       # Generated workflow → agent → skill graph
 ├── agent/                    # 20 specialist role definitions
-├── skills/                   # 110 progressive skills
+├── skills/                   # 126 progressive skills
 ├── workflows/                # 13 slash-command procedures
 ├── rules/                    # 7 workspace constraints
 ├── memory/                   # Persistent project context
@@ -122,7 +122,7 @@ Specialist AI personas for different domains.
 
 ---
 
-## 🧩 Skills (110)
+## 🧩 Skills (126)
 
 Modular knowledge domains that agents can load on-demand based on task context. Each skill has a `when_to_use` frontmatter field for conditional/intelligent loading.
 
@@ -167,7 +167,10 @@ Modular knowledge domains that agents can load on-demand based on task context. 
 
 | Skill             | Description                 |
 | ----------------- | --------------------------- |
-| `database-design` | Schema design, optimization |
+| `redis-core`              | Redis data structures, streams & pub/sub |
+| `redis-search`            | RediSearch indexing & vector queries   |
+| `redis-semantic-cache`    | LLM semantic caching with Redis        |
+| `supabase-postgres-best-practices` | Supabase Postgres, RLS & performance |
 | `data-migration-zero-downtime` | Expand-contract, online index |
 | `sql-optimization-patterns` | SQL EXPLAIN, indexing, N+1 fixes |
 | `postgresql`            | PostgreSQL internals, tuning     |
@@ -196,6 +199,10 @@ Modular knowledge domains that agents can load on-demand based on task context. 
 | `observability-slo`     | SLIs, SLOs, error budgets        |
 | `ci-cd-quality-gates`   | Automated CI/CD quality gates    |
 | `shipping-launch-checklist` | Pre-launch production checklist |
+| `cloudflare`              | Cloudflare Workers, R2, D1, KV, WAF    |
+| `durable-objects`         | Stateful coordination on Cloudflare    |
+| `nextjs-on-cloudflare`    | Deploying Next.js on Cloudflare Workers |
+| `azure-cost-optimization` | Azure resource rightsizing & savings   |
 
 ### Testing & Quality
 
@@ -203,6 +210,7 @@ Modular knowledge domains that agents can load on-demand based on task context. 
 | ----------------------- | ------------------------ |
 | `testing-patterns`      | Jest, Vitest, strategies |
 | `webapp-testing`        | E2E, Playwright          |
+| `agent-browser`         | AI browser automation CLI |
 | `tdd-workflow`          | Test-driven development  |
 | `code-review-checklist` | Code review standards    |
 | `sonar-code-quality`    | SonarQube gates, split files, reuse |
@@ -248,6 +256,8 @@ Modular knowledge domains that agents can load on-demand based on task context. 
 | Skill           | Description           |
 | --------------- | --------------------- |
 | `mobile-design` | Mobile UI/UX patterns |
+| `vercel-react-native-skills` | React Native & Expo best practices |
+| `sleek-design-mobile-apps` | Sleek mobile app UI design |
 
 ### Game Development
 
@@ -427,7 +437,7 @@ For command details and prerequisites, see [scripts/README.md](scripts/README.md
 | Metric              | Value                             |
 | ------------------- | --------------------------------- |
 | **Total Agents**    | 20 (1 major upgrade in 2026.5.13) |
-| **Total Skills**    | 110                                |
+| **Total Skills**    | 126                                |
 | **Total Workflows** | 13 (+2 new in 2026.5.13)          |
 | **Toolkit Utilities** | 7 user-facing + 2 internal modules |
 | **Antigravity Utilities** | 4 runtime utilities              |
