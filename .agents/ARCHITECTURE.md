@@ -9,7 +9,7 @@
 AG Kit is a modular Antigravity workspace system consisting of:
 
 - **20 Specialist Agents** — role-based AI personas and orchestration roles;
-- **98 Skills** — domain knowledge modules with progressive conditional loading;
+- **109 Skills** — domain knowledge modules with progressive conditional loading;
 - **13 Workflows** — slash-command procedures;
 - **7 Rules** — workspace routing, coding, security, design, and quick-reference constraints;
 - **Antigravity runtime layer** — contract, native hook, MCP helper, plugin builder, Doctor, schemas, and tests.
@@ -52,7 +52,7 @@ Any managed change without registry regeneration fails validation and CI. Google
 ├── manifest.lock.json        # Generated integrity lock
 ├── DEPENDENCY_GRAPH.md       # Generated workflow → agent → skill graph
 ├── agent/                    # 20 specialist role definitions
-├── skills/                   # 98 progressive skills
+├── skills/                   # 109 progressive skills
 ├── workflows/                # 13 slash-command procedures
 ├── rules/                    # 7 workspace constraints
 ├── memory/                   # Persistent project context
@@ -122,7 +122,7 @@ Specialist AI personas for different domains.
 
 ---
 
-## 🧩 Skills (98)
+## 🧩 Skills (109)
 
 Modular knowledge domains that agents can load on-demand based on task context. Each skill has a `when_to_use` frontmatter field for conditional/intelligent loading.
 
@@ -192,6 +192,10 @@ Modular knowledge domains that agents can load on-demand based on task context. 
 | `prometheus-configuration` | Prometheus scrape, rules, alerts |
 | `grafana-dashboards`    | Grafana dashboards & PromQL      |
 | `incident-responder`    | Incident triage & runbooks       |
+| `postmortem-writing`    | Blameless incident postmortems   |
+| `observability-slo`     | SLIs, SLOs, error budgets        |
+| `ci-cd-quality-gates`   | Automated CI/CD quality gates    |
+| `shipping-launch-checklist` | Pre-launch production checklist |
 
 ### Testing & Quality
 
@@ -202,6 +206,9 @@ Modular knowledge domains that agents can load on-demand based on task context. 
 | `tdd-workflow`          | Test-driven development  |
 | `code-review-checklist` | Code review standards    |
 | `sonar-code-quality`    | SonarQube gates, split files, reuse |
+| `doubt-driven-review`   | Adversarial code & edge-case review |
+| `design-smell-review`   | Architectural & design smell review |
+| `test-failure-triage`   | Systematic test failure diagnosis |
 | `lint-and-validate`     | Linting, validation      |
 
 ### Security
@@ -214,6 +221,8 @@ Modular knowledge domains that agents can load on-demand based on task context. 
 | `threat-modeling-expert` | STRIDE threat modeling & controls |
 | `secrets-management`    | Vault, KMS, secret rotation      |
 | `sast-configuration`    | Semgrep, CodeQL, SAST pipelines  |
+| `api-security-testing`  | API security & OWASP API testing |
+| `skill-supply-chain-audit` | Third-party AI skill & MCP audit |
 
 ### Architecture & Planning
 
@@ -231,6 +240,8 @@ Modular knowledge domains that agents can load on-demand based on task context. 
 | `prompt-engineering-patterns` | Prompt design, evals, few-shot |
 | `plan-writing`  | Task planning, breakdown   |
 | `brainstorming` | Socratic questioning       |
+| `clarify-underspecified` | Clarify ambiguous requirements |
+| `spec-driven-development` | Lock spec before implementation |
 
 ### Mobile
 
@@ -415,7 +426,7 @@ For command details and prerequisites, see [scripts/README.md](scripts/README.md
 | Metric              | Value                             |
 | ------------------- | --------------------------------- |
 | **Total Agents**    | 20 (1 major upgrade in 2026.5.13) |
-| **Total Skills**    | 98                                |
+| **Total Skills**    | 109                                |
 | **Total Workflows** | 13 (+2 new in 2026.5.13)          |
 | **Toolkit Utilities** | 7 user-facing + 2 internal modules |
 | **Antigravity Utilities** | 4 runtime utilities              |

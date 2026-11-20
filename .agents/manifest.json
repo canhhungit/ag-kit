@@ -570,6 +570,16 @@
       ],
       "version": "1.0.0"
     },
+    "api-security-testing": {
+      "allowedTools": [
+        "Read",
+        "Glob",
+        "Grep"
+      ],
+      "path": "skills/api-security-testing/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "app-builder": {
       "allowedTools": [
         "Read",
@@ -688,6 +698,26 @@
         "Bash"
       ],
       "path": "skills/caching-and-queue-patterns/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "ci-cd-quality-gates": {
+      "allowedTools": [
+        "Read",
+        "Glob",
+        "Grep"
+      ],
+      "path": "skills/ci-cd-quality-gates/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "clarify-underspecified": {
+      "allowedTools": [
+        "Read",
+        "Glob",
+        "Grep"
+      ],
+      "path": "skills/clarify-underspecified/SKILL.md",
       "scripts": [],
       "version": "1.0.0"
     },
@@ -835,6 +865,16 @@
       "scripts": [],
       "version": "1.0.0"
     },
+    "design-smell-review": {
+      "allowedTools": [
+        "Read",
+        "Glob",
+        "Grep"
+      ],
+      "path": "skills/design-smell-review/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "design-spec": {
       "allowedTools": [
         "Read",
@@ -854,6 +894,16 @@
         "Grep"
       ],
       "path": "skills/documentation-templates/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "doubt-driven-review": {
+      "allowedTools": [
+        "Read",
+        "Glob",
+        "Grep"
+      ],
+      "path": "skills/doubt-driven-review/SKILL.md",
       "scripts": [],
       "version": "1.0.0"
     },
@@ -1269,6 +1319,16 @@
       "scripts": [],
       "version": "1.0.0"
     },
+    "observability-slo": {
+      "allowedTools": [
+        "Read",
+        "Glob",
+        "Grep"
+      ],
+      "path": "skills/observability-slo/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "openapi-spec-generation": {
       "allowedTools": [
         "Read",
@@ -1339,6 +1399,16 @@
         "Bash"
       ],
       "path": "skills/postgresql/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "postmortem-writing": {
+      "allowedTools": [
+        "Read",
+        "Glob",
+        "Grep"
+      ],
+      "path": "skills/postmortem-writing/SKILL.md",
       "scripts": [],
       "version": "1.0.0"
     },
@@ -1508,6 +1578,16 @@
       "scripts": [],
       "version": "1.0.0"
     },
+    "shipping-launch-checklist": {
+      "allowedTools": [
+        "Read",
+        "Glob",
+        "Grep"
+      ],
+      "path": "skills/shipping-launch-checklist/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "simplify-code": {
       "allowedTools": [
         "Read",
@@ -1517,6 +1597,16 @@
         "Glob"
       ],
       "path": "skills/simplify-code/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "skill-supply-chain-audit": {
+      "allowedTools": [
+        "Read",
+        "Glob",
+        "Grep"
+      ],
+      "path": "skills/skill-supply-chain-audit/SKILL.md",
       "scripts": [],
       "version": "1.0.0"
     },
@@ -1541,6 +1631,16 @@
         "Bash"
       ],
       "path": "skills/sonar-code-quality/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "spec-driven-development": {
+      "allowedTools": [
+        "Read",
+        "Glob",
+        "Grep"
+      ],
+      "path": "skills/spec-driven-development/SKILL.md",
       "scripts": [],
       "version": "1.0.0"
     },
@@ -1615,6 +1715,16 @@
         "Bash"
       ],
       "path": "skills/terraform-specialist/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
+    "test-failure-triage": {
+      "allowedTools": [
+        "Read",
+        "Glob",
+        "Grep"
+      ],
+      "path": "skills/test-failure-triage/SKILL.md",
       "scripts": [],
       "version": "1.0.0"
     },
