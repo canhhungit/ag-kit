@@ -1,7 +1,7 @@
 {
   "$schema": "schemas/manifest-lock.schema.json",
   "components": {
-    "ARCHITECTURE.md": "7aadd5e7778075a18a6375ae766e6edf440e7a580c4d571f89133d51261f93e7",
+    "ARCHITECTURE.md": "dee92d9c1f346c51dbd5e6720907f487c139d9582737661d12f7648a3e8152ea",
     "CHANGELOG.md": "c29cb325d278be44ad662d91c86c180cf01c05d008f77cf4b3f0bd42de8c46f8",
     "README.md": "d6a29fbc3367f5ab5739f84bad71710879119d1b697b6a18943dcdad5e2ec654",
     "VERSION": "94bc11e2a5617c66e6d2f849e14be6579c44c90d0f985d80ce4dc96dff46fa94",
@@ -149,6 +149,7 @@
     "skills/error-handling-patterns/resources/implementation-playbook.md": "c73fd72cf3a891d1ae869a598e9db1c467d69ff59dd1faee4da3d4fa3db42353",
     "skills/event-sourcing-architect/SKILL.md": "a08f5c4cfe103adab64e0b307a83d4cd15b57fc328343f12f582b029c31c8f3f",
     "skills/fastapi-pro/SKILL.md": "748126d07f4ee7cc9c9f5b42c6fb143e4f3524f8da7309b3043969ce4c1d255a",
+    "skills/find-skills/SKILL.md": "5845059a16cea362230eb703911510b27a5512b0a8b4b7b9c1cd5bfbe5fbfe80",
     "skills/frontend-architecture/SKILL.md": "59e1b096240f3f6b9a0f4347ea042fb72e8c06870ee06cb2f6e83d7edcd014f1",
     "skills/frontend-design/SKILL.md": "1109d14dd1ea94880b22dbe693f546b3e6f271f42aaf0ed2df88ab1c08c67f1b",
     "skills/frontend-design/redesign.md": "ffb1fe2ed44ccc73b537055cd13550d742d2206e447a30fecfecb7e5b211aeb8",
@@ -359,6 +360,6 @@
     "workflows/verify.md": "2dc26bcbe24c7e71571953da75629521ea3d7a0a444a7101e3601b39864971fc"
   },
   "kitVersion": "2026.8.31",
-  "manifestSha256": "1fabd187f81104baa02aa81bbbcac4d2cfe794719caf933566ef848dc4112715",
+  "manifestSha256": "91238b57530e5309f3f3e67f4d6147db0a2a867e56d939afaea11cf887d7b552",
   "schemaVersion": "1.0.0"
 }

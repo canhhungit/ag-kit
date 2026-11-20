@@ -945,6 +945,17 @@
       "scripts": [],
       "version": "1.0.0"
     },
+    "find-skills": {
+      "allowedTools": [
+        "Read",
+        "Glob",
+        "Grep",
+        "Bash"
+      ],
+      "path": "skills/find-skills/SKILL.md",
+      "scripts": [],
+      "version": "1.0.0"
+    },
     "frontend-architecture": {
       "allowedTools": [
         "Read",
